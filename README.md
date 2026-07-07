@@ -9,10 +9,25 @@ US Standard Atmosphere 1976) w trzech postaciach:
 - **`main.py`** — interaktywna aplikacja SDL2 na handheld **Anbernic RG40XX V** (640×480, sterowanie padem),
 - **`atmo.py`** — frontend CLI (punkt / tabela / wykres / inwersja).
 
-![Profil atmosfery ISA 0–86 km](docs/screenshot.png)
+## Zrzuty ekranu
 
-*Wykres wygenerowany headless (matplotlib Agg) bezpośrednio z `isa_lib` — profil
-T, p, ρ i a w pełnym zakresie modelu 0–86 km.*
+Realny obraz aplikacji na konsoli **Anbernic RG40XX V** (640×480). Interfejs jest
+rysowany przez Pillow i prezentowany przez SDL2 — poniżej kolejne ekrany.
+
+**Ekran główny — MENU**
+
+![AnberISA — ekran główny MENU](docs/menu.png)
+
+**PUNKT — wartości ISA na zadanej wysokości** (tu 11 000 m, tropopauza): temperatura
+216,650 K (−56,50 °C), ciśnienie 226,321 hPa, gęstość 0,36392 kg/m³, prędkość dźwięku
+295,069 m/s wraz ze stosunkami σ, δ, θ i lepkością dynamiczną (Sutherland).
+
+![AnberISA — ekran PUNKT (11 000 m)](docs/punkt.png)
+
+**TABELA — profil ISA** (0–20 000 m, krok 2000 m) z kolumnami T, p, ρ, a oraz σ;
+z możliwością zapisu do pliku CSV.
+
+![AnberISA — ekran TABELA (profil ISA)](docs/tabela.png)
 
 ## Fizyka
 
