@@ -132,3 +132,7 @@ pomocnicze (a, ρ, Sutherland), round-trip wysokość → p/ρ → wysokość, p
 wysokości gęstościowej lotniska, limity zakresu (h<0, h>86 km).
 
 CI (GitHub Actions, badge powyżej) uruchamia pełny zestaw na Pythonie 3.11.
+
+## Licencja
+
+Copyright (c) 2026 Karol Furtak. **Wszelkie prawa zastrzeżone.** Użycie komercyjne, kopiowanie, rozpowszechnianie i modyfikowanie wyłącznie za pisemną zgodą autora — szczegóły w pliku [LICENSE](LICENSE).
